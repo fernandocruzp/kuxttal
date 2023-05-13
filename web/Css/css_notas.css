@@ -1,0 +1,98 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 30/10/2021, 04:07:37 PM
+    Author     : Admin
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+.titulo {      
+    color: #E8FFC2;
+    font: 100px Arial, Helvetica, sans-serif;
+    overflow-x: hidden;     
+    text-align: center;     
+    
+    height: 150px;       
+}
+body {
+    font-family:'Lato', sans-serif;
+    background: url("../Imagenes/notas.png") no-repeat center top;
+    /*background: #E8FFC2;*/ 
+    background-size: cover;
+}
+.form-nota{
+    width: 800px;
+    height: 35px;    
+    margin: 3% auto;
+    background: #FFF;  
+    border-radius: 10px;       
+}
+.form-subir{    
+    height: 35px;     
+    width: 35px;
+    background: whitesmoke;
+    text-align: center;    
+    align-content: center;
+    font-family: 'Arial';
+    font-size: 20px;
+}
+table, th, td {    
+    background: #edf4ff;
+    font-family: 'Lato';
+    color: black;
+    font-size: 15px;
+    border-color: #bdd5ff;        
+    border-width: 1px;
+    height: 45px;
+    
+}
+.table{
+    background: #edf4ff;
+    width: 850px;
+    height: 500px;
+    border-color: yellow;
+}
+.form{
+    background: #bdd5ff;
+    width: 850px;    
+}
+
+.btn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db,  #b63cfc);
+  background-image: -moz-linear-gradient(top, #3498db,  #b63cfc);
+  background-image: -ms-linear-gradient(top, #3498db,  #b63cfc);
+  background-image: -o-linear-gradient(top, #3498db,  #b63cfc);
+  background-image: linear-gradient(to bottom, #3498db,  #b63cfc);
+  border-radius: 9px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin-left: 10%;
+}
+
+.btn:hover {
+  background: #b63cfc;
+  background-image: -webkit-linear-gradient(top, #b63cfc, #3498db);
+  background-image: -moz-linear-gradient(top, #b63cfc, #3498db);
+  background-image: -ms-linear-gradient(top, #b63cfc, #3498db);
+  background-image: -o-linear-gradient(top, #b63cfc, #3498db);
+  background-image: linear-gradient(to bottom, #b63cfc, #3498db);
+  text-decoration: none;
+}
+
+.btn2 {
+  background: #d0bfff;
+  border-radius: 9px;
+  font-family: Arial;
+  font-size: 15px;
+  color: #0E185F;
+  padding: 8px 16px 8px 16px;
+  font-style: italic;
+ 
+}

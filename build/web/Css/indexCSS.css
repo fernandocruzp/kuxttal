@@ -1,0 +1,433 @@
+@import url('https://fonts.googleapis.com/css2?family=Chau+Philomene+One&family=Lato&family=Raleway:wght@300;400;700&display=swap');
+
+:root{
+    gold1:#F4BD76;
+    gold2:#F6CD8F;
+    gray:#ffffff80;
+    gray2:#f7d9d990;
+    black1: #1A1B1F;
+    black2: #30353B;
+    shadow: 0 8px 8px;
+    color_shadow: #00000033;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background: #f2f2f2;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: -27px;
+
+}
+
+header{
+    min-height: 80px;
+    background-color: #0748b8; 
+    font-weight: 200;
+
+}
+
+#nom{
+    position: relative;
+    top: 5px;
+    right: 750px;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+header a{
+    color: whitesmoke;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header a:hover{
+    color: #5df505;
+    font-weight: bold;
+}
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+
+.contenedor{
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.slider-contenedor{
+    width: 100%;
+    display: flex;
+}
+
+.contenido-slider{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.contenido-slider:first-child{
+    background: url(sld1.jpg);
+    background-attachment: fixed;
+    background-size: 1500px;
+    background-position: center;
+
+}
+
+.s1{
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    color: #47525e;
+    font-family: 'Lato', sans-serif;
+}
+
+
+.contenido-slider:nth-child(2){
+    background: url(sld2.jpg);
+    background-size: 1375px;
+    text-align-last: start;
+
+}
+
+.contenido-slider:nth-child(3){
+    background: url(sld3.jpg);
+    background-size: 1380px;
+}
+
+
+.contenido-slider > div{
+    width: 40%;
+}
+
+.contenido-slider h2{
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 90px;
+    line-break: normal;
+    color: #4a4e52;
+    font-family: 'Lato', sans-serif;
+}
+
+#nuevo{
+    color: #00B050;
+    font-family: 'Lato', sans-serif;
+    text-align:  center;
+    font-weight: 800;
+    font-size: 70px;
+}
+
+.contenido-slider a{
+    color: #36eee0;
+    background: #0748b8;
+    font-family: 'Chau Philomene One', sans-serif;
+    width: 200px;
+    display: block;
+    padding: 10px 0;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 10px;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.contenido-slider:nth-child(2) a{
+    background: #fff;
+    color: #332863;
+
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    background-color: #f2f2f2;
+    padding: 10px;
+    border: 2px solid #f2f2f2;
+}
+
+.flex-container div{
+    background: #f2f2f2;
+    width: 100px;
+    margin: 10px;
+    font-family: sans-serif;
+    border: 2px solid #0748b8;
+    width: 250px;
+}
+
+.icons{
+    width: 120px;
+    alignment-baseline: middle;
+}
+
+#servicios{
+    font-size: 52px;
+    font-weight: bold;
+}
+
+.point{
+    color: #5e17eb;
+}
+
+/* Segunda parte */
+
+.containerr{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding:60px 0;
+    height: auto;
+}
+
+
+.subtitle{
+    font-size: 52px;
+}
+
+.subtitle--modifier{
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.copy__section{
+    color: var(black2);
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 60px;
+}
+
+
+.card{
+    width: 30%;
+    padding: 30px 0;
+    overflow: hidden;
+    background: #000046;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    border-radius: 10px;
+    position: relative;
+    text-align: right;
+    margin-bottom: 60px;
+    box-shadow: 0 0 6px var(color_shadow);
+}
+
+.card__img{
+    width: 95%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px 0 0 10px;
+}
+
+.cards__text{
+    text-align: left;
+    width: 90%;
+    margin:0 auto;
+}
+
+.card__list{
+    color: var(gold2);
+    font-weight: 700;
+    margin: 25px 0 12px ;
+    font-size: 18px;
+}
+
+
+.card__title{
+    font-size: 40px;
+    color: #fff;
+    margin-bottom: 8px;
+}
+
+.card__copy{
+    color: whitesmoke;
+    margin-bottom: 16px;
+}
+
+.card__button{
+    display: block;
+    background: linear-gradient(180deg, #F7CE90 0%, #F4BD76 100%);
+    border-radius: 6px;
+    text-decoration: none;
+    width: 100%;
+    color: var(black1);
+    font-weight: 700;
+    text-align: center;
+    padding: 12px 0;
+}
+
+.card__date{
+    color: #5df505;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.containerr-bg{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.background{
+    width: 68%;
+    height: 370px;
+    border-radius: 10px;
+    position: relative;
+    margin-bottom: 60px;
+}
+
+.background__img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: inherit;
+}
+
+.background__text{
+    position: absolute;
+    width: 100%;
+    bottom: 30px;
+    left: 15px;
+    font-family: 'Lato', sans-serif;
+    color: black;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.background__title{
+    font-size: 52px;
+    color: #40c920;
+}
+
+#marktg{
+    font-size: 24px;
+    color: var(black2);
+}
+
+.pie-pagina{
+    background-color: #0a141d;
+    position: relative;
+    top: 60px;
+    padding-left: 0;
+    padding-right: 0 !important;
+    width: 100%;
+}
+
+.pie-pagina .grupo-2{
+    background-color: #0a1a2a;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+}
+
+
+@media screen and (max-width:600px){
+    .contenido-slider{
+        flex-direction: column-reverse;
+    }
+
+    .contenido-slider > div{
+        width: 80%;
+    }
+
+}
+
+/*
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Raleway', roboto;
+    background: #f2f2f2;
+}
+
+.contenedor{
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.slider-contenedor{
+    width: 100%;
+    display: flex;
+}
+
+.contenido-slider{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background: url(https://www.redaccionmedica.com/images/destacados/-ser-medico-no-te-hace-mejor-ser-humano-ser-humano-te-hace-mejor-medico--3647.jpg); 
+    flex-shrink: 0;
+}
+
+.contenido-slider:nth-child(2){
+    background: #332863;
+    color: white;
+}
+
+.contenido-slider:nth-child(3){
+    background: #611a68;
+    color: white;
+}
+
+.contenido-slider h2{
+    font-weight: 300;
+    text-align: justify;
+    line-height: 30px;
+}
+
+.contenido-slider a{
+    color: #fff;
+    background: purple;
+    width: 100px;
+    display: block;
+    padding: 15px 0;
+    text-align: center;
+    border-radius: 3px;
+    margin-top: 20px;
+    text-decoration: none;
+    
+}
+
+.contenido-slider:nth-child(2) a{
+    background: white;
+    color: #332863;
+}
+
+.contenido-slider:nth-child(3) a{
+    background: white;
+    color: #332863;
+}*/

@@ -1,0 +1,108 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 12/04/2022, 11:50:19 AM
+    Author     : Alumno
+*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+body{
+    font-family: 'Lato', sans-serif;
+    background: #ffdbe4;
+    /*background: url("../Imagenes/registra.jpg") no-repeat center top;*/
+    background-size:2000px 1000px;
+}
+
+table, th, td{
+    font-family: 'Lato';
+    color: white;
+    font-size: 30px;    
+    height: 180px;
+    text-align: center;
+    width: 600px;        
+    border-color: white;
+    border-radius:20px;
+    font-weight: bold;
+}
+table a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+
+table #doc{
+    background: #3a77e0;
+}
+table #not{
+    background: #32d982;
+}
+table #cit{
+    background: orange;
+}
+table #chat{
+    background: #af47ff;
+}
+table #docu{
+    background: #32d982;
+}
+table #rec{
+    background: #2dcfc9;
+
+}
+
+.titulo_prin{
+    color:  #4414c9;
+    font-family: 'Arial';
+    font-weight: bold;
+    /*background: #0748b8;*/
+    height: 60px;
+    font-size: 65px;
+    margin-top: 2%;
+    margin-left: 4%;
+}
+
+#vec{
+    position: fixed;
+    left: 63%;
+    bottom: 12%;
+}
+
+#vec2{
+    position: fixed;
+    top: 12%;
+    left: -1%;
+}
+
+.link{
+    position: fixed;
+    right: 2%;
+    text-decoration: none;
+}
+
+
+
+/*.btn {
+  -webkit-border-radius: 7;
+  -moz-border-radius: 7;
+  border-radius: 7px;
+  font-family: 'Lato';
+  color: #ffffff;
+  font-size: 20px;
+  background: #6434bf;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #51ed88;
+  text-decoration: none;
+}*/
+
+
+
+

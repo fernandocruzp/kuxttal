@@ -1,0 +1,126 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 8/11/2021, 12:23:30 PM
+    Author     : Alumno
+*/
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*{
+    margin: 0;
+
+}
+
+.bit_titulo{
+    position: absolute;
+    background: #4d8bf7;
+    /*color:  #5e17eb;*/
+    color: white;
+    font-family: 'Lato';
+    font-size: 32px;
+    text-align: left;
+    width: 100%;
+    padding: 40px;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    /*background: url("../IMG/bitac.jpeg") no-repeat center top;*/
+    background:  #f7f7f7;
+    background-size: cover;
+}
+.med{
+    font-family: Arial;
+    font-size: 20px;
+    background: white;    
+    height: 35px;
+}
+.subtit{
+    color:#5e17eb;
+    font-family: Arial;
+    font-size: 20px;
+    margin: 1%;
+}
+.agregar{
+    font-family: Arial;
+    background: #d9d9d8;
+    font-size: 25px;
+    height: 50px;
+    width: 500px;
+    text-align: center;   
+    text-align-last: center;
+    margin: 1%;
+}
+.cancel{
+    font-family: Arial;
+    color: wheat;        
+    font-size: 20px;
+    text-align: center;
+    width: 190px;
+    height: 55px;
+    margin: 1%;
+    margin-top: 2%;
+}
+
+#centrar{
+    text-align: center;
+}
+
+button{
+    font-family: Arial;    
+    width: 170px;
+    height: 35px;
+    font-size: 15px;
+    text-align: center; 
+    background: #0748b8;
+    color: white;
+    border-color: #5df505;
+    margin: 1%;
+}
+.form-bit{    
+    width: 1000px; 
+    height: 150px;
+    text-align: left;
+    text-align-last: left;    
+    margin: 1%;
+}
+.bg{
+    background: white; 
+    height: 330px;
+}
+.bg-bit{
+    background: white; 
+    height: 345px;
+}
+table, th, td {    
+    background: #4d8bf7;
+    font-family: 'Arial Black';
+    color: #05f5a5;
+    font-size: 20px;
+    border-color: dimgrey;        
+    border-width: 3px;
+    height: 45px;
+    margin-top: 10%;
+    margin-left: 30%;
+}
+.ima{
+    max-width:5px;
+    max-height:5px;
+}
+
+.back{
+    position: fixed;
+    right: 4%;
+    top: 15%;
+    background:    #15d798;
+    border-radius: 11px;
+    padding:       13px 38px;
+    color:         #ffffff;
+    display:       inline-block;
+    font:          normal  18px/1 "Roboto", sans-serif;
+    text-align:    center;
+}
+
+

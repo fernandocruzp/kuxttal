@@ -1,0 +1,90 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+
+con insert quitas el cuadrito negro
+*/
+/* 
+    Created on : 23/11/2021, 05:21:25 PM
+    Author     : Admin
+*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+body {
+    font-family: 'Lato', sans-serif;
+    background: #caddfc;
+    /*background: url("../Imagenes/registra.jpg") no-repeat center top;*/
+    background-size:2000px 1000px;
+}
+/*.cancel{
+    background: #6434bf; #51ed88
+}*/
+table, th, td{
+    font-family: 'Lato';
+    color: white;
+    font-size: 30px;    
+    height: 180px;
+    text-align: center;
+    width: 600px;        
+    border-color: white;
+    border-radius:20px;
+    font-weight: bold;
+}
+table a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+
+table #doc{
+    background: #0748b8;
+}
+table #not{
+    background: #32d982;
+}
+table #cit{
+    background: orange;
+}
+table #chat{
+    background: purple;
+}
+table #docu{
+    background: palevioletred;
+}
+table #rec{
+    background: red;
+    
+}
+
+.link{
+    text-decoration: none;
+}
+.titulo_prin{
+    color:  #cf006e;
+    font-family: 'Arial';
+    font-weight: bold;
+    /*background: #0748b8;*/
+    height: 60px;
+    font-size: 65px;
+    margin-top: 2%;
+    margin-left: 4%;
+}
+
+#vec{
+    position: fixed;
+    left: 68%;
+    bottom: 18%;
+}
+
+#vec2{
+    position: fixed;
+    top: 22%;
+    left: 4%;
+}
+
+
+
+
